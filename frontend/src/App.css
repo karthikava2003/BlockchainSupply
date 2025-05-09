@@ -1,0 +1,107 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Container for the entire app */
+.app-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Heading */
+.app-container h1 {
+  text-align: center;
+  color: #222;
+}
+
+/* Navigation Styling */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="number"] {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  background-color: #5c67f2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #4a54e1;
+}
+
+/* Error Message Styling */
+.error {
+  color: #d9534f;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* Product Details Section */
+.product-details {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
+
+.product-details h3 {
+  margin-top: 0;
+}
+
+.product-details p {
+  margin: 5px 0;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+
